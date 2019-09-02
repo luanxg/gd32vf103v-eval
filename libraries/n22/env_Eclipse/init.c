@@ -6,7 +6,7 @@
 #include "riscv_encoding.h"
 #include "n22_func.h"
 
-void _init() {
+void risv_init() {
     SystemInit();
 
     //ECLIC init
